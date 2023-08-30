@@ -11,17 +11,18 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background:brown;
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
 h1 {
     display: flex;
-    align-items:center
-    color: white;
+    align-items: center;
+    color: black;
     flex: 1;
-    margin: 1;
+    margin: 0;
     font-family: cursive;
 }
 #nav-ul {
@@ -60,18 +61,4 @@ main {
 }
 h2, h3 {
     margin: 0px;
-}
-p{
-    color:black;
-    font-family:cursive;
-}
-h3{
-    color: black;
-    font-family:cursive;
-}
-li{
-    color:white;
-    font-family:cursive;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(239, 80, 41);
 }
